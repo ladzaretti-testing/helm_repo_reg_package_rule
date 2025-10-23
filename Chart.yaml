@@ -25,16 +25,5 @@ appVersion: "1.16.0"
 dependencies:
   - name: nginx
     version: 18.2.3
-    repository: "@bitnami"
-  - name: nginx
-    version: 18.2.3
     repository: "https://charts.bitnami.com/bitnami"
     alias: alias-1
-  - name: nginx
-    version: 18.2.3
-    repository: "@bitnami"
-    alias: alias-2
-  - name: redis
-    version: 19.5.0
-    repository: "@bitnami"
-    alias: alias-3
