@@ -1,4 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "description": "force Helm deps in root Chart.yaml to use the given reg url",
+      "matchManagers": ["helmv3"],
+      "matchDatasources": ["helm"],
+      "matchFileNames": ["Chart.yaml"],
+      "registryUrls": ["https://charts.bitnami.com/bitnami"]
+    }
+  ]
 }
