@@ -24,6 +24,6 @@ version: 0.1.0
 appVersion: "1.16.0"
 dependencies:
   - name: nginx
-    version: 18.2.3
+    version: 22.2.3
     repository: "https://foo.bar.com/baz"
     alias: alias-1
